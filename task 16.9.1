@@ -1,0 +1,13 @@
+class Rectangle:
+    def __init__(self, x, y, width,height):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+
+    def get_area(self):
+        return f'x = {self.x}, y = {self.y}, ' \
+               f'width = {self.width}, height = {self.height}'
+rect = Rectangle(4,5,67,78)
+print(f"result: {rect.get_area()}")
+
